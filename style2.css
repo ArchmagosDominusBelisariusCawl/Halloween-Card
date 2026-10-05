@@ -1,0 +1,37 @@
+body{
+    background-color:purple;
+.heading{
+    background-color:purple;
+    font-family:creepster;
+    font-size:100px;
+    color:orange;
+    display:flex;
+    justify-content:center;
+    align-items:top;
+    height:100vh;
+    }
+    button {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+background-color: orange; 
+  color: white;
+  transition: filter 0.2s ease; 
+}
+
+
+button:hover {
+  filter: brightness(0.85); 
+}
+        
+}
+.creepster-regular {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+img{
+    width:2000px;
+    height:auto;
+        display:flex;
+    justify-content:center;
+    align-items:top;
+    }
